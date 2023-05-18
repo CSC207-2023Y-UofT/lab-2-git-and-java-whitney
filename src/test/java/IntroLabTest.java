@@ -1,4 +1,4 @@
-/*
+package java;/*
  * This file contains JUnit test cases for IntroLab.java
  *
  * Complete the TODO in this file!
@@ -30,4 +30,11 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test(timeout = 10)
+    public void testdagliris() {
+        String expected = "Hello! My name is Rishit! " +
+                "I like cats more than dogs! CSC207";
+        String actual = IntroLab.exampleStudent();
+        assertEquals(expected, actual);
+    }
 }
