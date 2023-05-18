@@ -1,4 +1,4 @@
-package java;/*
+/*
  * This file contains JUnit test cases for IntroLab.java
  *
  * Complete the TODO in this file!
@@ -34,7 +34,7 @@ public class IntroLabTest {
     public void testdagliris() {
         String expected = "Hello! My name is Rishit! " +
                 "I like cats more than dogs! CSC207";
-        String actual = IntroLab.exampleStudent();
+        String actual = IntroLab.dagliris();
         assertEquals(expected, actual);
     }
 }

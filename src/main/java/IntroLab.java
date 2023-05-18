@@ -42,7 +42,7 @@ public class IntroLab {
      */
 
     public static String dagliris() {
-        return printLabMessage("Hello", "Rishit", true, "CSC207")
+        return printLabMessage("Hello", "Rishit", true, "CSC207");
     }
 
     /**
